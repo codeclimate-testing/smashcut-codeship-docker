@@ -8,7 +8,8 @@ gem "rspec", "~> 3.4"
 gem "rubocop", "0.39"
 gem "yard"
 gem "todo_lint"
-gem "codeclimate-test-reporter", :group => :test, :require => nil
+gem "simplecov"
+gem "codeclimate-test-reporter"
 
 group :development do
   gem "guard"
