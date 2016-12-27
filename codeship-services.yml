@@ -1,2 +1,4 @@
 smashcut:
   build: .
+  environment:
+    CODECLIMATE_REPO_TOKEN: ddefb5f5696d7f9957bc5141a25143acd9029663f873ca3505a4a11c67ee1129
