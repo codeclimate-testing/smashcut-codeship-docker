@@ -1,3 +1,3 @@
-- name: Tests
+- name: run tests
   service: smashcut
-  command: bundle exec rspec && bundle exec codeclimate-test-reporter
+  command: bin/ci
