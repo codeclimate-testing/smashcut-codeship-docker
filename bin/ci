@@ -1,5 +1,6 @@
 #!/bin/bash
 
 set -e
+puts ENV.inspect
 bundle exec rspec
 bundle exec codeclimate-test-reporter
